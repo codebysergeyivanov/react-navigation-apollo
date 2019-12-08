@@ -2,7 +2,22 @@
 # yarn lockfile v1
 
 
-"@apollo/client@^3.0.0-beta.14", "@apollo/client@^3.0.0-beta.4":
+"@apollo/client@2.6.4":
+  version "3.0.0-beta.15"
+  resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.0.0-beta.15.tgz#8bbd90abdb006f99a7b1d70b8ec5a47d765ffba4"
+  integrity sha512-OjnbEnYJ981ybe1BfQAnmg62M5NOLnwUGZf2zHiJiTFn7/6cFWtOd+qEuJiN8Fsb/kaXRPVCp3JFwkgmNIdD0A==
+  dependencies:
+    "@types/zen-observable" "^0.8.0"
+    "@wry/equality" "^0.1.9"
+    fast-json-stable-stringify "^2.0.0"
+    graphql-tag "^2.10.1"
+    optimism "^0.11.3"
+    symbol-observable "^1.2.0"
+    ts-invariant "^0.4.4"
+    tslib "^1.10.0"
+    zen-observable "^0.8.14"
+
+"@apollo/client@^3.0.0-beta.4":
   version "3.0.0-beta.14"
   resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.0.0-beta.14.tgz#25a0b43c8a55ef6f914e600270bd8f2c3fded2c2"
   integrity sha512-C6aTXjmYVVYrypGXY8QT7j0EOnCmkKau544Bc0iPUKsyXCA+ic9Ri3gNCeuBqQg0TnAc++E0N/NzirD7VcqxHA==
@@ -1326,6 +1341,11 @@ apollo-cache@^1.3.2:
   dependencies:
     apollo-utilities "^1.3.2"
     tslib "^1.9.3"
+
+apollo-link-rest@^0.7.3:
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/apollo-link-rest/-/apollo-link-rest-0.7.3.tgz#c7f6caafc811c542f7ab119d7034c603e2987dc9"
+  integrity sha512-Cu60ZO/7de9preDsH3N3zHL40mrMfwgGbxPDdDEqRbes1Ms+DSRqBMv5yB641dSjSeZHKQW1ikQwc8GA8dBJKA==
 
 apollo-utilities@^1.3.2:
   version "1.3.2"

@@ -16,3 +16,11 @@ export const CHANGE_SAY = gql`
     }
   }
 `;
+
+export const GET_PERSON = gql`
+query luke {
+  person @rest(type: "Person", endpoint: "person", path: "people/1/") {
+    name
+  }
+}
+`;

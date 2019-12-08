@@ -1,5 +1,5 @@
 import typeDefs from './typeDefs';
-import { GET_HELLO } from '../../apollo/queryes';
+import { GET_HELLO } from '../../apollo/queries';
 
 const resolvers = {
     Mutation: {
